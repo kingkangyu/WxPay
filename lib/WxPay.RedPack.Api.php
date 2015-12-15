@@ -1,6 +1,6 @@
 <?php
 /**
- * 红包类
+ * 2015-12-15 红包类
  */
 require_once "WxPay.Api.php";
 
@@ -49,7 +49,7 @@ class WxPayRedPackApi extends WxPayApi {
 		$inputObj->SetMch_billno(WxPayConfig::MCHID.date("YmdHis").substr(microtime(), 2, 4));//生成商户订单号
 		
 		
-		//签名
+		//签名，必须坐在所有待传参数都设置完毕才可以进行签名
 		$inputObj->SetSign();
 		$xml = $inputObj->ToXml();
 

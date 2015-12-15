@@ -1,6 +1,7 @@
 <?php
 /**
- * 微信红包测试例子
+ * 2015-12-15 微信红包测试例子
+ * @author  kangyu
  */
 ini_set('date.timezone','Asia/Shanghai');
 error_reporting(E_ALL | E_STRICT);

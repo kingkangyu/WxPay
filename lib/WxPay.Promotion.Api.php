@@ -1,6 +1,6 @@
 <?php
 /**
- * 企业付款类
+ * 2015-12-14 企业付款类
  */
 require_once "WxPay.Api.php";
 
