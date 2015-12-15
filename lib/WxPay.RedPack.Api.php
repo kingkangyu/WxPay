@@ -10,7 +10,7 @@ require_once "WxPay.Api.php";
  */
 class WxPayRedPackApi extends WxPayApi {
 	/**
-	 * [微信企业支付]
+	 * [微信支付红包类]
 	 * @param  WxPayRedPack  $inputObj [微信红包输入对象]
 	 * @param  integer $timeOut  [description]
 	 * @return [type]            [description]

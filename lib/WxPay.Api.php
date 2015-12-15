@@ -549,10 +549,10 @@ class WxPayApi
 			//使用证书：cert 与 key 分别属于两个.pem文件
 			curl_setopt($ch,CURLOPT_SSLCERTTYPE,'PEM');
 			// curl_setopt($ch,CURLOPT_SSLCERT, WxPayConfig::SSLCERT_PATH);
-			curl_setopt($ch,CURLOPT_SSLCERT, getcwd().WxPayConfig::SSLCERT_PATH);
+			curl_setopt($ch,CURLOPT_SSLCERT, WxPayConfig::SSLCERT_PATH);
 			curl_setopt($ch,CURLOPT_SSLKEYTYPE,'PEM');
 			// curl_setopt($ch,CURLOPT_SSLKEY, WxPayConfig::SSLKEY_PATH);
-			curl_setopt($ch,CURLOPT_SSLKEY, getcwd().WxPayConfig::SSLKEY_PATH);
+			curl_setopt($ch,CURLOPT_SSLKEY, WxPayConfig::SSLKEY_PATH);
 			//增加rootca证书验证
 			// curl_setopt($ch,CURLOPT_CAINFO,'PEM');
 			// curl_setopt($ch,CURLOPT_CAINFO, WxPayConfig::ROOTCA_PATH);
