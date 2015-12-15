@@ -1,0 +1,48 @@
+array (size=10)
+  'return_code' => string 'SUCCESS' (length=7)
+  'return_msg' => 
+    array (size=0)
+      empty
+  'mch_appid' => string 'wx087e9936b045b6c4' (length=18)
+  'mchid' => string '1269141801' (length=10)
+  'device_info' => 
+    array (size=0)
+      empty
+  'nonce_str' => string '054hmn22ma1pmmc84kkw2kc6tqjozthm' (length=32)
+  'result_code' => string 'SUCCESS' (length=7)
+  'partner_trade_no' => string '1269141801201512151006117964' (length=28)
+  'payment_no' => string '1000018301201512150146916017' (length=28)
+  'payment_time' => string '2015-12-15 10:06:13' (length=19)
+
+
+  array (size=10)
+  'return_code' => string 'SUCCESS' (length=7)
+  'return_msg' => 
+    array (size=0)
+      empty
+  'mch_appid' => string 'wx087e9936b045b6c4' (length=18)
+  'mchid' => string '1269141801' (length=10)
+  'device_info' => 
+    array (size=0)
+      empty
+  'nonce_str' => string 'gokmd9kgx7slzwfdihb2gckht08wbrg1' (length=32)
+  'result_code' => string 'SUCCESS' (length=7)
+  'partner_trade_no' => string '1269141801201512151011592843' (length=28)
+  'payment_no' => string '1000018301201512150146771558' (length=28)
+  'payment_time' => string '2015-12-15 10:12:01' (length=19)
+
+  array (size=10)
+  'return_code' => string 'SUCCESS' (length=7)
+  'return_msg' => 
+    array (size=0)
+      empty
+  'mch_appid' => string 'wx087e9936b045b6c4' (length=18)
+  'mchid' => string '1269141801' (length=10)
+  'device_info' => 
+    array (size=0)
+      empty
+  'nonce_str' => string 'u2p7zpqe6ovgk12d4bs8xumzmf3ed00q' (length=32)
+  'result_code' => string 'SUCCESS' (length=7)
+  'partner_trade_no' => string '1269141801201512151025476408' (length=28)
+  'payment_no' => string '1000018301201512150146849777' (length=28)
+  'payment_time' => string '2015-12-15 10:25:51' (length=19)
