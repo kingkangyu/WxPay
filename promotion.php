@@ -1,4 +1,7 @@
 <?php
+/**
+ * 微信支付企业付款类例子
+ */
 ini_set('date.timezone','Asia/Shanghai');
 error_reporting(E_ALL | E_STRICT);
 ini_set("display_errors", 1);
