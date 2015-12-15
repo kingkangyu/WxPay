@@ -51,7 +51,6 @@ class WxPayPromotionApi extends WxPayApi {
 		//签名
 		$inputObj->SetSign();
 		$xml = $inputObj->ToXml();
-		var_dump($xml);
 
 		$response = self::postXmlCurl($xml, $url, true, $timeOut);
 		// $result = WxPayResults::Init($response);
