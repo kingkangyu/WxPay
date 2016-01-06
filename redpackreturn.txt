@@ -69,3 +69,25 @@ array (size=10)
   'total_amount' => string '143' (length=3)
   'send_listid' => string '0010557812201512150355701210' (length=28)
   'send_time' => string '20151215153711' (length=14)
+
+  string '<xml>
+<return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[帐号余额不足，请到商户平台充值后再重试]]></return_msg>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[NOTENOUGH]]></err_code>
+<err_code_des><![CDATA[帐号余额不足，请到商户平台充值后再重试]]></err_code_des>
+<mch_billno><![CDATA[1269141801201512151643161370]]></mch_billno>
+<mch_id>1269141801</mch_id>
+<wxappid><![CDATA[wx087e9936b045b6c4]]></wxappid>
+<re_openid><![CDATA[o9WpmxEqZMZNtjHEo'... (length=578)
+array (size=10)
+  'return_code' => string 'FAIL' (length=4)
+  'return_msg' => string '帐号余额不足，请到商户平台充值后再重试' (length=57)
+  'result_code' => string 'FAIL' (length=4)
+  'err_code' => string 'NOTENOUGH' (length=9)
+  'err_code_des' => string '帐号余额不足，请到商户平台充值后再重试' (length=57)
+  'mch_billno' => string '1269141801201512151643161370' (length=28)
+  'mch_id' => string '1269141801' (length=10)
+  'wxappid' => string 'wx087e9936b045b6c4' (length=18)
+  're_openid' => string 'o9WpmxEqZMZNtjHEoN8vuuFHb12I' (length=28)
+  'total_amount' => string '374' (length=3)

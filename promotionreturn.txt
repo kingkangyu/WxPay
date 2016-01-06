@@ -46,3 +46,11 @@ array (size=10)
   'partner_trade_no' => string '1269141801201512151025476408' (length=28)
   'payment_no' => string '1000018301201512150146849777' (length=28)
   'payment_time' => string '2015-12-15 10:25:51' (length=19)
+
+
+  array (size=5)
+  'return_code' => string 'FAIL' (length=4)
+  'return_msg' => string '帐号余额不足，请用户充值或更换支付卡后再支付.' (length=67)
+  'result_code' => string 'FAIL' (length=4)
+  'err_code' => string 'NOTENOUGH' (length=9)
+  'err_code_des' => string '帐号余额不足，请用户充值或更换支付卡后再支付.' (length=67)

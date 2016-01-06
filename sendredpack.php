@@ -19,14 +19,15 @@ $remark = '微信支付开发测试';//备注
 $money = mt_rand(100,500);//单位 分
 
 
-$input = new WxPayRedPack();
-$input->SetRe_openid($openid);
-$input->SetTotal_num();
-$input->SetAct_name($act_name);
-$input->SetWishing($wishing);
-$input->SetSend_name($send_name);
-$input->SetRemark($remark);
-$input->SetTotal_amount($money);
+$input = new WxPayRedPack();//创建微信红包输入对象
+$input->SetRe_openid($openid);//设置openid
+$input->SetTotal_num();//设置默认total_num=1
+$input->SetAct_name($act_name);//设置活动名称
+$input->SetWishing($wishing);//设置祝福语
+$input->SetSend_name($send_name);//设置活动方名称
+$input->SetRemark($remark);//设置备注
+$input->SetTotal_amount($money);//设置发送红包钱数，单位分
 
-$result = WxPayRedPackApi::sendRedpack($input);
+$result = WxPayRedPackApi::sendRedpack($input);//请求微信服务器发送红包，并获得返回结果
+
 var_dump($result);
